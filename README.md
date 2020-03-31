@@ -22,7 +22,7 @@ The NOOBS interface provides the following functionality:
 - <b>Install</b>: Installs the selected OSes onto your SD card. Changing this selection erases all OSes currently installed.
 - <b>Edit Config</b>: Opens a text editor allowing the cmdline and config for the selected installed OS to be edited.
 - <b>Online Help</b>: [Networking Required] Open a browser that displays the EFSCOIN Efs Help page (https://gitter.im/efsco/ ), allowing people to quickly access help and troubleshooting.
-- <b>Exit</b>: Quits NOOBS and reboots the Pi into the OS boot menu.
+- <b>Exit</b>: Quits NOOBS and reboots the Efs into the OS boot menu.
 - <b>Language Selection</b>: Allows you to select the language to be displayed.
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
 - <b>Display Mode Selection</b>: By default, NOOBS will output over HDMI at your display's preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
@@ -41,7 +41,7 @@ On first boot the "RECOVERY" FAT partition will be automatically resized to a mi
 ### Operating System Choice
 
 NOOBS is available in 2 formats:
-- `NOOBS Full` includes the installation files for Raspbian Full and LibreELEC only.
+- `NOOBS Full` includes the installation files for EFSCOIN Full and LibreELEC only.
 - `NOOBS-Lite` does not include any Operating Systems at all.
 
 Please note that RISC OS cannot be installed by the NOOBS FULL version due to the amount of space taken up by the included Operating Systems.
