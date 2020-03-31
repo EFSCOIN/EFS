@@ -1,15 +1,15 @@
 # NOOBS (New Out of Box Software)
-#### An easy Operating System installer for the Raspberry Pi
+#### An easy Operating System installer for the EFSCOIN Efs
 
-NOOBS is designed to make it easy to select and install operating systems for the Raspberry Pi without having to worry about manually imaging your SD card.
+NOOBS is designed to make it easy to select and install operating systems for the EFSCOIN Efs without having to worry about manually imaging your SD card.
 
-The latest official release of NOOBS can be downloaded from http://downloads.raspberrypi.org/NOOBS_latest
+The latest official release of NOOBS can be downloaded from [Noobs] (https://github.com/efscoin/NOOBS).
 
-For information on previous releases and version changelists, visit https://github.com/raspberrypi/noobs/releases
+For information on previous releases and version changelists, visit https://github.com/efscoin/noobs/releases.
 
 ![alt text](screenshots/os_installed.png "NOOBS Interface")
 
-<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your Raspberry Pi model and the availability of OSes on our remote download repository.</sup>
+<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
 ### About
 On first boot NOOBS will repartition your SD card and allow you to select which OSes you want to install from a list. This OS list is automatically generated from both locally available OSes (i.e. those contained in the `/os` directory on disk) or those available from our remote repository (network connection required).
@@ -21,7 +21,7 @@ On any subsequent boot you can then press the SHIFT key to enter the NOOBS inter
 The NOOBS interface provides the following functionality:
 - <b>Install</b>: Installs the selected OSes onto your SD card. Changing this selection erases all OSes currently installed.
 - <b>Edit Config</b>: Opens a text editor allowing the cmdline and config for the selected installed OS to be edited.
-- <b>Online Help</b>: [Networking Required] Open a browser that displays the Raspberry Pi Help page ( http://www.raspberrypi.org/help/ ), allowing people to quickly access help and troubleshooting.
+- <b>Online Help</b>: [Networking Required] Open a browser that displays the EFSCOIN Efs Help page (https://gitter.im/efsco/ ), allowing people to quickly access help and troubleshooting.
 - <b>Exit</b>: Quits NOOBS and reboots the Pi into the OS boot menu.
 - <b>Language Selection</b>: Allows you to select the language to be displayed.
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
@@ -50,17 +50,17 @@ If you want to install RISC OS, use NOOBS-Lite instead, or change the included o
 
 #### OS Network Download
 
-Both versions of NOOBS allow additional Operating Systems to be downloaded from our remote repository. To do this, the Raspberry Pi must be connected to a wired network, or it can connect over Wifi using the [Raspberry Pi USB wifi dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/) or the Raspberry Pi 3 Model B built-in wifi. 
+Both versions of NOOBS allow additional Operating Systems to be downloaded from our remote repository. To do this, the Raspberry Pi must be connected to a wired network, or it can connect over Wifi using the [EFSCOIN Efs USB wifi dongle](https://github.com/efscoin/products/usb-wifi-dongle/) or the EFSCOIN Efs Model B built-in wifi. 
 
-Once connected, the Pi will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root NOOBS directory and append `showall` to the arguments list.
+Once connected, the Efs will only show a list of Operating Systems that are appropriate to your Pi Model. If you want to see ALL available OSes, edit the `recovery.cmdline` file in the root NOOBS directory and append `showall` to the arguments list.
 
 #### Wired Networks
 
-If a wired ethernet cable is plugged into the Pi before NOOBS starts, NOOBS will connect via DHCP to our remote download repository and present a list of available Operating Systems that are available for installation.
+If a wired ethernet cable is plugged into the Efs before NOOBS starts, NOOBS will connect via DHCP to our remote download repository and present a list of available Operating Systems that are available for installation.
 
 #### Wifi Networks
 
-If you have the official [Raspberry Pi USB wifi Dongle](https://www.raspberrypi.org/products/usb-wifi-dongle/), or are using the Raspberry Pi 3 Model B with built-in wifi, the wifi icon on the NOOBS toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
+If you have the official [EFSCOIN Efs USB wifi Dongle](https://github.com/efscoin/products/usb-wifi-dongle/), or are using the Raspberry Pi 3 Model B with built-in wifi, the wifi icon on the NOOBS toolbar will be available. Click on this to select your Wifi SSID network and enter the wifi password. 
 
 ![alt text](screenshots/wifi_selector.png "Select your wifi network and enter the password")
 
@@ -70,7 +70,7 @@ For <b>Windows</b> users, we recommend formatting your SD card using the SD Asso
 
 The SD Association's Formatting Tool is also available for <b>Mac</b> users although the default OSX Disk Utility is also capable of formatting the entire disk (select the SD card volume and choose "Erase" with "MS-DOS" format).
 
-For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for Linux users: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/ )
+For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for Linux users: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs)
 
 ===
 
@@ -82,14 +82,14 @@ Simply select the checkbox next to each OS you want to install using either a mo
 
 ![alt text](screenshots/os_selected.png "Select your choice of OSes to install")
 
-<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your Raspberry Pi model and the availability of OSes on our remote download repository.</sup>
+<sup>*NOTE: The list of OSes in this image is indicative only. It will vary according to your EFSCOIN Efs model and the availability of OSes on our remote download repository.</sup>
 
 
 #### Online Help via Web Browser
 
-The built-in Arora web browser allows you to easily get help via the Raspberry Pi Forums (wired network connection required).
+The built-in Arora web browser allows you to easily get help via the EFSCOIN Efs Forums (wired network connection required).
 
-![alt text](screenshots/browser.png "Search the Raspberry Pi forums for help via the built-in web browser")
+![alt text](screenshots/browser.png "Search the EFSCOIN Efs forums for help via the built-in web browser")
 
 #### Easy Config File Editor
 
@@ -119,7 +119,7 @@ Note that if only one OS is installed then the boot selector will not be display
 
 ### How to Automatically Install an OS
 
-Even if you are using your Pi without a display, you can still use NOOBS to easily install an OS of your choice. To set up NOOBS to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
+Even if you are using your Efs without a display, you can still use NOOBS to easily install an OS of your choice. To set up NOOBS to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
 
 1. Copy the OS folder for the OS you want to install into the `/os` dir (or alternatively delete all other OSes contained in the `/os` dir so that only your chosen OS remains.
 
@@ -127,7 +127,7 @@ Even if you are using your Pi without a display, you can still use NOOBS to easi
 
 3. Edit the `recovery.cmdline` file in the root NOOBS directory and append `silentinstall` to the arguments list.
 
-When you now boot your Pi using an SD card containing the modified version of NOOBS that you just created, it will automatically install the OS you chose and boot into it after the installation has finished.
+When you now boot your Efs using an SD card containing the modified version of NOOBS that you just created, it will automatically install the OS you chose and boot into it after the installation has finished.
 
 ### Preconfiguring a WiFi network
 
@@ -136,12 +136,12 @@ If you already know your WiFi details, you can preconfigure NOOBS to use it stra
 ### How to create a custom OS version
 
 There are two main use cases for which you may want to create a custom version of one of the standard OS releases that is suitable for installation via NOOBS:
-- If you are a teacher wanting to easily deploy a custom OS release containing pre-defined set of packages and files onto a number of SD cards (e.g. to provision a class set of Raspberry Pi's or quickly restore a Raspberry Pi back to custom "factory" settings).
+- If you are a teacher wanting to easily deploy a custom OS release containing pre-defined set of packages and files onto a number of SD cards (e.g. to provision a class set of EFSCOIN Efs or quickly restore a EFSCOIN Efs back to custom "factory" settings).
 - If you want to be able to back up your existing installed packages and files so that any future OS re-install does not force you back to a clean install.
 
 The following steps allow you to create a modified copy of one of the standard OS releases that contains your custom files, packages and settings.
 
-1. Download a base version of NOOBS from http://downloads.raspberrypi.org/NOOBS_latest
+1. Download a base version of NOOBS from https://github.com/efscoin/NOOBS.
 
 2. Extract the NOOBS zipfile
 
@@ -172,7 +172,7 @@ Edit the `recovery.cmdline` file in the root NOOBS directory and append the foll
 - `keyboard=<two-letter layout code>` (e.g. `keyboard=de` or `keyboard=us`)
 - `display=<display mode number>` (e.g. `display=1` or `display=3`)
 - `partition=<partition_number>` (e.g. `partition=6`)
-- `showall` (shows all available OSes regardless of your Raspberry Pi model)
+- `showall` (shows all available OSes regardless of your EFSCOIN Efs model)
 
 Note that these defaults will be overwritten by any changes made in the GUI to these settings.
 
@@ -186,10 +186,10 @@ After you have installed your chosen OSes, add the following file to the root di
 
 This will also prevent the splashscreen from being displayed at boot. The partition number can be found by running `sudo fdisk -l` the partition will be one of the FAT32 partitions `/dev/mmcblk0p6` would be partition 6. Note that once an `autoboot.txt` file is present, there's then no way to force the NOOBS GUI to display, until you delete (or rename) the `autoboot.txt` file.
 
-### How to use with the Raspberry Pi Touch Display
+### How to use with the EFSCOIN Efs Touch Display
 
-If NOOBS detects you are using the [Raspberry Pi Touch Display](https://www.raspberrypi.org/products/raspberry-pi-touch-display/), it will enable the following functionality:
-- A tap on the raspberry logo in the centre of the touchscreen can activate NOOBS, as well as holding the shift key down.
+If NOOBS detects you are using the [EFSCOIN Efs Touch Display](https://github.com/efscoin/tools/touch-display/), it will enable the following functionality:
+- A tap on the EFSCOIN logo in the centre of the touchscreen can activate NOOBS, as well as holding the shift key down.
 - A tap on the touchscreen will simulate a mouse click
 - A longpress on the touchscreen will simulate a mouse double-click.
 
@@ -295,7 +295,7 @@ Main differences with bcmrpi_defconfig:
 ## Modifying Qt source
 
 Source is in the `recovery` folder.
-Be aware that user interface screens will appear larger in Qt Creator then when deployed on the Pi, can
+Be aware that user interface screens will appear larger in Qt Creator then when deployed on the Efs, can
 raise font sizes 2 points to compensate.
 
 Several constants can be changed in `config.h`
@@ -335,13 +335,12 @@ To add a new translation:
 
 ### Legal compliance
 
-Copyright (c) 2013, Raspberry Pi
-All rights reserved.
+Copyright (c) 2015 - 2020 EFSCOIN Efs. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the document and/or other materials provided with the distribution.
 Neither the name of the Raspberry Pi Foundation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
